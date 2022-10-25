@@ -18,6 +18,7 @@ function TelaLogin(props) {
         </StyledLabel>
         <SendButton onClick={enviarLogin}>Entrar</SendButton>
         <RegisterButton onClick={() => props.mudarTela(2)}>Cadastre-se</RegisterButton>
+      
       </Form>
     </FormContainer>
   );

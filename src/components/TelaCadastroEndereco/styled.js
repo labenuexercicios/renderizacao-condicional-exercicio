@@ -33,6 +33,7 @@ export const SendButton = styled.button`
   margin-top: 32px;
   cursor: pointer;
 `;
+
 export const BackToLoginButton = styled.button`
     background-color: white;
     border-radius: 8px;
@@ -44,7 +45,6 @@ export const BackToLoginButton = styled.button`
         color: white;
     }
 `
-
 
 export const StyledLabel = styled.label`
   width: 300px;
