@@ -3,6 +3,7 @@ import TelaLogin from "./components/TelaLogin/TelaLogin";
 import TelaCadastro from "./components/TelaCadastro/TelaCadastro";
 import TelaUsuarioCadastrado from "./components/TelaUsuarioCadastrado/TelaUsuarioCadastrado.js";
 import { useState } from "react";
+import TelaCadastroEndereco from "./components/TelaCadastroEndereço/TelaCadastroEndereco"
 
 const GlobalStyled = createGlobalStyle`
   *{
@@ -21,6 +22,7 @@ function App() {
   const mudarTela = (valor) => {
     setValorCondicional(valor)
   }
+  
 
   // Resolução do exercício de fixação
   const renderizaTela = () => {
@@ -31,6 +33,9 @@ function App() {
         return <TelaCadastro mudarTela={mudarTela} />;
       case 3:
         return <TelaUsuarioCadastrado />
+        case 4: 
+        return <TelaCadastroEndereco mudarTela={mudarTela}/>;
+        
     }
   }
 
