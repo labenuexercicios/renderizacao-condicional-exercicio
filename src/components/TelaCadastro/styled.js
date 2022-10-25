@@ -52,3 +52,7 @@ export const StyledLabel = styled.label`
   align-items: center;
   justify-content: space-between;
 `;
+
+export const Titulo = styled.h1 `
+    margin-bottom: 6vh;
+`

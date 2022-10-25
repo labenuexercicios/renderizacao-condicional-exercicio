@@ -1,9 +1,9 @@
-import { Form, FormContainer, Input, StyledLabel, SendButton, BackToLoginButton } from "./styled";
+import { Form, FormContainer, Input, StyledLabel, SendButton, BackToLoginButton, Titulo } from "./styled";
 
 function TelaCadastro(props) {
   return (
     <FormContainer>
-      <h1>Cadastro </h1>
+      <Titulo>Cadastro </Titulo>
       <Form>
         <StyledLabel htmlFor="titulo">
           Nome:
